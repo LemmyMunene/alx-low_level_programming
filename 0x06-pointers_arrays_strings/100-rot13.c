@@ -5,7 +5,8 @@
   * rot13 - ...
   * @s: ...
   * 
-  * Return: ... */
+  * Return: ...
+  */
 char *rot13(char *s)
 {
 	int a = 0;
