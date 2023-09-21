@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
-**
+/**
   * rot13 - ...
   * @s: ...
   * 
-  * Return: ...
-  */
+  * Return: ... */
 char *rot13(char *s)
 {
 	int a = 0;
