@@ -4,7 +4,6 @@
   *  _puts_recursion("Puts with recursion");
     return (0);
   */
-
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
@@ -13,7 +12,6 @@ void _puts_recursion(char *s)
 		return;
 	}
 
-	_putchar(*s);
-	s++;
+	_putchar(*s); s++;
 	_puts_recursion(s);
 }
