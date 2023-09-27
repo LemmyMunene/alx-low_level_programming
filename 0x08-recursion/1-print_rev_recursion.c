@@ -1,12 +1,11 @@
 #include "main.h"
 
 /** 
- * _print_rev_recursion("\nColton Walker");
- * *s: string in reverse
- *
- * return (0);
- *
- */
+  * _print_rev_recursion("\nColton Walker");
+  * *s: string in reverse
+  *
+  * return (0);
+  */
 void _print_rev_recursion(char *s);
 {
 	if (*s == '\0')
