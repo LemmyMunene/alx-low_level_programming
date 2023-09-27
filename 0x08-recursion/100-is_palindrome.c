@@ -1,7 +1,6 @@
 #include "main.h"
-#include <stdio.h>
 
-int is_palindrome(char *s)
+int is_palindrome(char *s);
 
 /**
   * is_palindrome - function returns 1 palindrome, else 0
