@@ -2,7 +2,8 @@
 
 /**
   *  _puts_recursion("Puts with recursion");
-  *  *s: paremeter to print
+  *  @s: paremeter to print
+  *
   *  return (0);
   */
 void _puts_recursion(char *s)
