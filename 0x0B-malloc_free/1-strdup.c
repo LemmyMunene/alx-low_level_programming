@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *  * _strdup - returns a pointer to a newly allocated space in mem.
+ *  * _strdup - returns pointer to allocated space in mem.
  *   * @str: string 1.
  *    *
  *     * Return: pointer to char array
