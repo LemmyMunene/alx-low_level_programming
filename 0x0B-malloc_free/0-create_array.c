@@ -6,6 +6,7 @@
  * simple_print_buffer - prints array of char
  * create_array - creates char array
  * @buffer: print mem address
+ * @c : storage char
  * @size: memory size
  *
  * Return: NULL.
