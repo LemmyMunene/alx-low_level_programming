@@ -4,7 +4,8 @@
 
 /**
  * simple_print_buffer - prints array of char
- * @buffer: memory address to print
+ * create_array - creates char array
+ * @buffer: print mem address
  * @size: memory size
  *
  * Return: NULL.
