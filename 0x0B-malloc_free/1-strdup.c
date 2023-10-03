@@ -9,8 +9,8 @@
  *     * Return: pointer to char array
  *      */
 
-char *_strdup(char *str}
-		{
+char *_strdup(char *str)
+{
 	char *strout;
 	unsigned int i, j;
 
