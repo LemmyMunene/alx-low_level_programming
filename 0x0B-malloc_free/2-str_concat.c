@@ -9,15 +9,14 @@
  *
  * Return: pointer to char array
  */
-
 char *str_concat(char *s1, char *s2)
 {
   int i, j, k;
-  char *newStr = 0;
+  char *newStr = NULL;
 
-  if (s1 == 0)
+  if (s1 == NULL)
     s1 = "";
-  if (s2 == 0)
+  if (s2 == NULL)
     s2 = "";
 
   for (i = 0; s1[i] != '\0'; i++)
@@ -28,8 +27,8 @@ char *str_concat(char *s1, char *s2)
 
   newStr = (char*)malloc((i + j) * sizeof(char));
 
-  if (newStr == 0)
-    return (0);
+  if (newStr == NULL)
+    return (NULL);
 
   for (k = 0; s1[k] != '\0'; k++)
     newStr[k] = s1[k];
