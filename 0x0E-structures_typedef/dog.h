@@ -2,18 +2,18 @@
 #define _DOG_H_
 
 /**
- * dog_t - Typedef for struct dog
+ * dog_t - Typedef struct dog
  */
 typedef struct dog dog_t;
 
 /**
- * struct dog - store var dog
+ * struct dog - struct stores var
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
  *
- * Description: struct "dog storesname, age
- * & name of owner.
+ * Description: struct called "dog" name, age
+ * & owner.
  */
 struct dog
 {
