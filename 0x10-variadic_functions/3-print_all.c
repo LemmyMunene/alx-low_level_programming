@@ -3,14 +3,14 @@
 #include <stdarg.h>
 /**
  * print_all - Entry Point
- * c = char, v = int, f = float, s = char * else NULL
+ * c = char, v = int, f = float, s = char * (if null print (nil))
  * @format: list of arg types
  * Return: 0
  */
 void print_all(const char * const format, ...)
 {
 	va_list valist;
-	int P = 0, v = 0;
+	int n = 0, v = 0;
 	char *sep = ", ";
 	char *str;
 
@@ -19,13 +19,13 @@ void print_all(const char * const format, ...)
 	while (format && format[v])
 		v++;
 
-	while (format && format[P])
+	while (format && format[n])
 	{
-		if (P  == (v - 1))
+		if (n  == (v - 1))
 		{
 			sep = "";
 		}
-		switch (format[P])
+		switch (format[n])
 		{
 		case 'c':
 			printf("%c%s", va_arg(valist, int), sep);
@@ -45,6 +45,6 @@ void print_all(const char * const format, ...)
 		}
 		n++;
 	}
-	printf("\P");
+	printf("\n");
 	va_end(valist);
 }
